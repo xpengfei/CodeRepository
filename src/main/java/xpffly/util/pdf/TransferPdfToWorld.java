@@ -60,7 +60,7 @@ public class TransferPdfToWorld {
             ByteArrayInputStream is = new ByteArrayInputStream(s.getBytes());
             License license = new License();
             license.setLicense(is);
-            com.aspose.words.Document document = new com.aspose.words.Document(inPath);
+            Document document = new Document(inPath);
             document.save(new FileOutputStream(outPath),SaveFormat.PDF);
             System.out.println("转化成功");
         } catch (Exception e) {

@@ -1,13 +1,13 @@
 package xpffly.xml;
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
-
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
 
 /**
  * @author szfh-xingpf
@@ -16,34 +16,34 @@ import java.util.Map;
  */
 public class ConvertXML2ObjectUtil {
 
-    public static Map convertRespXMLToList(String respXML) {
-        Map<String, Object> map = new HashMap<String, Object>();
-        String xml = dealXML(respXML);
-        Document document = null;
-        try {
-            document = DocumentHelper.parseText(xml);
-            Element rootElement = document.getRootElement();
-            Iterator iterator = rootElement.elementIterator();
-            while (iterator.hasNext()) {
-                Element elementOption = (Element) iterator.next();
-                Iterator iteratorOption = elementOption.elementIterator();
-                while (iteratorOption.hasNext()) {
-                    Element element = (Element) iteratorOption.next();
-                    map.put(element.getName(), element.getTextTrim());
-                }
-            }
+	public static Map convertRespXMLToList(String respXML) {
+		Map<String,Object> map = new HashMap<String, Object>();
+		String xml = dealXML(respXML);
+		Document document = null;
+		try {
+			document = DocumentHelper.parseText(xml);
+			Element rootElement = document.getRootElement();
+			Iterator iterator = rootElement.elementIterator();	
+			while(iterator.hasNext()) {
+				Element elementOption = (Element) iterator.next();
+				Iterator iteratorOption = elementOption.elementIterator();
+				while(iteratorOption.hasNext()) {
+					Element element = (Element) iteratorOption.next();
+					map.put(element.getName(), element.getTextTrim());
+				}
+			}
+			
+		} catch (DocumentException e) {
+			//添加日志打印
+		}
+		return map;
+	}
 
-        } catch (DocumentException e) {
-            //添加日志打印
-        }
-        return map;
-    }
-
-    // 将xml头部信息去掉
-    public static String dealXML(String xml) {
-        if (xml.lastIndexOf("?") != -1) {
-            xml = xml.substring(xml.lastIndexOf("?") + 2);
-        }
-        return xml;
-    }
+	// 将xml头部信息去掉
+	public static String dealXML(String xml) {
+		if (xml.lastIndexOf("?") != -1) {
+			xml = xml.substring(xml.lastIndexOf("?") + 2);
+		}
+		return xml;
+	}
 }
