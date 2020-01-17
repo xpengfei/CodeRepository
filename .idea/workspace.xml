@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a12f89e0-1f33-4668-819f-5cbb55d0b19b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeRepository.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/http/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/java/SynchronizeSkills.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/lambda/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/lambda/dto/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/lambda/list/MergeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/socket/SocketUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/util/encrypt/Encrypt3DES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/util/encrypt/RsaEncrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/util/pdf/TransferPdfToWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/util/time/DateTimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/xml/ConvertObjectToXMlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/xml/ConvertSessionXMLToObjectUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xpffly/xml/ConvertXML2ObjectUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +12,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\WorkSpcae\CodeRepository\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -50,9 +38,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -87,17 +76,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579239572033</updated>
-      <workItem from="1579239577539" duration="1174000" />
+      <workItem from="1579239577539" duration="1981000" />
     </task>
+    <task id="LOCAL-00001" summary="个人代码工具仓库">
+      <created>1579241353573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579241353573</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="个人代码工具仓库" />
+    <option name="LAST_COMMIT_MESSAGE" value="个人代码工具仓库" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1579241341070">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579241341070" />
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1579241432706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579241432706" />
+    <state x="534" y="254" width="298" height="292" key="Github.ShareDialog" timestamp="1579242990803">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="534" y="254" width="298" height="292" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1579242990803" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1579241250208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579241250208" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1579241409727">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579241409727" />
   </component>
 </project>
